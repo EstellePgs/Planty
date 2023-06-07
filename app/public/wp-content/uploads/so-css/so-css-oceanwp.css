@@ -1,0 +1,107 @@
+/* Personnalisation formulaire CF7 */
+form.wpcf7-form {
+background: transparent; /* Couleur du fond du formulaire */
+padding: 2em; /* Espace autour du formulaire */
+box-shadow: 0 0 1em rgba(0,0,0,.03); /* Ombre autour du formulaire */
+color: #0B1529; /* Couleur de texte des étiquettes */
+}
+
+@media screen and (max-width: 800px) {
+form.wpcf7-form {
+padding: 0; /* Espace autour du formulaire sur mobile */
+box-shadow: none; /* Supprime ombre autour du formulaire sur mobile*/
+}
+}
+
+form.wpcf7-form>h3 {
+margin-bottom: 0.3em; /* Marge en bas du titre H3 du formulaire */
+margin-top: 0em; /* Marge en haut du titre H3 du formulaire */
+}
+
+form.wpcf7-form * {
+transition: 225ms; /* Tempère les transitions */
+}
+
+form.wpcf7-form label {
+cursor: pointer; /* Transforme le curseur en main */
+font-size: 0.9em; /* Gère la taille de la police des étiquettes */
+font-weight: bold; /* Passe les étiquettes en gras */
+}
+
+.wpcf7-checkbox, .wpcf7-radio {
+color : #1C3669; /* Couleur listes */
+}
+
+form.wpcf7-form input,
+form.wpcf7-form select,
+form.wpcf7-form textarea {
+background: #fefefe; /* Couleur du fond des cases */
+font-size: 0.8em; /* Gère la taille de la police des cases */
+border: 1px solid #ececed; /* Bordures des cases */
+color: #122345; /* Couleur du texte des cases */
+margin: 5px; /* Ajout d'un espace autour des cases */
+}
+
+
+form.wpcf7-form input:hover,
+form.wpcf7-form select:hover,
+form.wpcf7-form textarea:hover {
+cursor: pointer; /* Transforme le curseur en main au survol */
+box-shadow: 0 0 2px #cccccd; /* Ombre autour de la case au survol */
+}
+
+form.wpcf7-form input:focus,
+form.wpcf7-form select:focus,
+form.wpcf7-form textarea:focus {
+border: 2px solid #cccccd; /* Bordure de la case sélectionnée */
+outline: none; /* Supprime l'effet de halo */
+}
+
+
+form.wpcf7-form input[type="submit"] {
+padding: 1em; /* Ajout d'un espace dans le bouton */
+border: 2px solid #010f18; /* Bordure du bouton */
+box-shadow: none; /* Supprime l'ombre du bouton */
+background: #022136; /* Couleur de fond du bouton */
+color: #ffffff; /* Couleur du texte du bouton */
+text-decoration:none;  /* Supprime soulignement */
+font-size: 1em; /* Taille du texte du bouton */
+}
+
+@media screen and (max-width: 800px) {
+form.wpcf7-form input[type="submit"] {
+padding: 0.5em; /* Ajout d'un espace dans le bouton sur mobile */
+font-size: 1em; /* Taille du texte du bouton sur mobile */
+}
+}
+
+form.wpcf7-form input[type="submit"]:hover {
+background-color: #010f18; /* Couleur de fond du bouton au survol */
+text-decoration:none;  /* Supprime soulignement */
+}
+
+span.wpcf7-not-valid-tip {
+color: #38abf9; /* Couleur du texte d'erreur */
+font-size: 15px; /* Gère la taille du texte d'erreur */
+margin-top: 5px; /* Marge en haut du texte d'erreur */
+}
+
+div.wpcf7-response-output {
+padding: 1em !important;
+margin: 0 !important;
+}
+
+/* Supprimer couleur bordures tableau */
+.cf7resp table, .cf7resp table * {
+border-color: transparent;
+}
+
+/* Empiler tableau mobiles */
+@media screen and (max-width: 640px) {
+.cf7resp table,
+.cf7resp tbody,
+.cf7resp tr,
+.cf7resp td {
+display: block;
+}
+}

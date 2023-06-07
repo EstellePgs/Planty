@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+
+/* Form Nous rencontrer
+---------------------------------*/
+
+
+.form-nr  {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+} 
+
+.form-text {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom:0;
+
+}
+
+#nom-nr , #email-nr , #message-nr {
+
+    border:none;
+    border-radius: 7px; 
+    background-color: #FFFFFF;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.button-nr {
+
+    align-items: center;
+    margin-top:20px;
+}
+
+#button-nr{
+
+    background-color:#E0B9B4;
+    border-radius: 5px;
+    font-family: 'syne' , sans-serif;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform : none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+
+}
+
+.wpcf7-spinner {
+    display: none;
+}
