@@ -3,3 +3,93 @@
 [28-May-2023 12:24:10 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\pages\Local Sites\planty\app\public/wp-content/themes/oceanwp-child-theme-master/css/theme.css in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 8
 [28-May-2023 12:24:11 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\pages\Local Sites\planty\app\public/wp-content/themes/oceanwp-child-theme-master/css/theme.css in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 8
 [28-May-2023 12:24:11 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\pages\Local Sites\planty\app\public/wp-content/themes/oceanwp-child-theme-master/css/theme.css in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 8
+[12-Jun-2023 19:01:36 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "‘wpcf7_autop_or_not’" in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:12
+Stack trace:
+#0 C:\Users\pages\Local Sites\planty\app\public\wp-settings.php(591): include()
+#1 C:\Users\pages\Local Sites\planty\app\public\wp-config.php(102): require_once('C:\\Users\\pages\\...')
+#2 C:\Users\pages\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\pages\\...')
+#3 C:\Users\pages\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\pages\\...')
+#4 {main}
+  thrown in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 12
+[12-Jun-2023 19:01:36 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "‘wpcf7_autop_or_not’" in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:12
+Stack trace:
+#0 C:\Users\pages\Local Sites\planty\app\public\wp-settings.php(591): include()
+#1 C:\Users\pages\Local Sites\planty\app\public\wp-config.php(102): require_once('C:\\Users\\pages\\...')
+#2 C:\Users\pages\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\pages\\...')
+#3 C:\Users\pages\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\pages\\...')
+#4 {main}
+  thrown in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 12
+[12-Jun-2023 19:01:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\pages\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[12-Jun-2023 19:01:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\pages\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[12-Jun-2023 19:01:39 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "‘wpcf7_autop_or_not’" in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:12
+Stack trace:
+#0 C:\Users\pages\Local Sites\planty\app\public\wp-settings.php(591): include()
+#1 C:\Users\pages\Local Sites\planty\app\public\wp-config.php(102): require_once('C:\\Users\\pages\\...')
+#2 C:\Users\pages\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\pages\\...')
+#3 C:\Users\pages\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\pages\\...')
+#4 {main}
+  thrown in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 12
+[12-Jun-2023 19:01:46 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "‘wpcf7_autop_or_not’" in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:12
+Stack trace:
+#0 C:\Users\pages\Local Sites\planty\app\public\wp-settings.php(591): include()
+#1 C:\Users\pages\Local Sites\planty\app\public\wp-config.php(102): require_once('C:\\Users\\pages\\...')
+#2 C:\Users\pages\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\pages\\...')
+#3 C:\Users\pages\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\pages\\...')
+#4 {main}
+  thrown in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 12
+[12-Jun-2023 19:01:47 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "‘wpcf7_autop_or_not’" in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:12
+Stack trace:
+#0 C:\Users\pages\Local Sites\planty\app\public\wp-settings.php(591): include()
+#1 C:\Users\pages\Local Sites\planty\app\public\wp-config.php(102): require_once('C:\\Users\\pages\\...')
+#2 C:\Users\pages\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\pages\\...')
+#3 C:\Users\pages\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\pages\\...')
+#4 {main}
+  thrown in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 12
+[12-Jun-2023 19:01:48 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "‘wpcf7_autop_or_not’" in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:12
+Stack trace:
+#0 C:\Users\pages\Local Sites\planty\app\public\wp-settings.php(591): include()
+#1 C:\Users\pages\Local Sites\planty\app\public\wp-config.php(102): require_once('C:\\Users\\pages\\...')
+#2 C:\Users\pages\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\pages\\...')
+#3 C:\Users\pages\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\pages\\...')
+#4 {main}
+  thrown in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 12
+[12-Jun-2023 19:01:53 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "‘wpcf7_autop_or_not’" in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:12
+Stack trace:
+#0 C:\Users\pages\Local Sites\planty\app\public\wp-settings.php(591): include()
+#1 C:\Users\pages\Local Sites\planty\app\public\wp-config.php(102): require_once('C:\\Users\\pages\\...')
+#2 C:\Users\pages\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\pages\\...')
+#3 C:\Users\pages\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\pages\\...')
+#4 {main}
+  thrown in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 12
+[12-Jun-2023 19:02:03 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "‘wpcf7_autop_or_not’" in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:12
+Stack trace:
+#0 C:\Users\pages\Local Sites\planty\app\public\wp-settings.php(591): include()
+#1 C:\Users\pages\Local Sites\planty\app\public\wp-config.php(102): require_once('C:\\Users\\pages\\...')
+#2 C:\Users\pages\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\pages\\...')
+#3 C:\Users\pages\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\pages\\...')
+#4 {main}
+  thrown in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 12
+[12-Jun-2023 19:02:05 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "‘wpcf7_autop_or_not’" in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:12
+Stack trace:
+#0 C:\Users\pages\Local Sites\planty\app\public\wp-settings.php(591): include()
+#1 C:\Users\pages\Local Sites\planty\app\public\wp-config.php(102): require_once('C:\\Users\\pages\\...')
+#2 C:\Users\pages\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\pages\\...')
+#3 C:\Users\pages\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\pages\\...')
+#4 {main}
+  thrown in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 12
+[12-Jun-2023 19:02:18 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "‘wpcf7_autop_or_not’" in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:12
+Stack trace:
+#0 C:\Users\pages\Local Sites\planty\app\public\wp-settings.php(591): include()
+#1 C:\Users\pages\Local Sites\planty\app\public\wp-config.php(102): require_once('C:\\Users\\pages\\...')
+#2 C:\Users\pages\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\pages\\...')
+#3 C:\Users\pages\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\pages\\...')
+#4 {main}
+  thrown in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 12
+[12-Jun-2023 19:02:33 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "‘wpcf7_autop_or_not’" in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:12
+Stack trace:
+#0 C:\Users\pages\Local Sites\planty\app\public\wp-settings.php(591): include()
+#1 C:\Users\pages\Local Sites\planty\app\public\wp-config.php(102): require_once('C:\\Users\\pages\\...')
+#2 C:\Users\pages\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\pages\\...')
+#3 C:\Users\pages\Local Sites\planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\pages\\...')
+#4 {main}
+  thrown in C:\Users\pages\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 12

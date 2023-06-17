@@ -1,9 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
 
+:root {
+    --saumon-color: #E0B9B4;
+    --saumon-fonce: #DC9F96;
+    --blanc-color: #ffffff;
+}
+
+p {
+    margin-top:0;
+    margin-bottom:0;
+   }
+
+
+/* Header
+---------------------------------*/
+site-header-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Logo
+---------------------------------*/
+#site-logo {
+    margin-left: 30px;
+}
+
+/* Espacer logo et menu
+---------------------------------*/
+#site-navigation-wrap .dropdown-menu li{
+    margin-left: 50px;
+    
+}
+
+/* Changer couleur menu
+---------------------------------*/
+.main-menu .dropdown-menu .sf-menu li a {
+    color: #DC9F96;
+    font-family: 'Syne'!important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+
+}
+
+/* Largeur du bouton commander
+---------------------------------*/
+#site-navigation-wrap .dropdown-menu li:last-child {
+    width: 236px;
+    background-color: #DC9F96;
+}
+
+#site-navigation-wrap .dropdown-menu li:last-child:hover{
+    width: 236px;
+    background-color: #C02E44;
+}
+
+/* Cibler le texte & lien
+---------------------------------*/
+
+#site-navigation-wrap .dropdown-menu>li>a {
+    color: black!important;
+    font-family: 'syne' , sans-serif!important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+}
+
+
+#site-navigation-wrap .dropdown-menu li:last-child a {
+    color : white!important;
+    text-align: center;
+    font-family: 'syne' , sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
 
 /* Form Nous rencontrer
 ---------------------------------*/
-
+p {
+    margin: 0px 0px 0px;
+}
 
 .form-nr  {
     width:100%;
@@ -11,6 +87,7 @@
     flex-direction: column;
     align-items: center;
     
+
 } 
 
 .form-text {
@@ -20,7 +97,7 @@
     font-size: 20px;
     color: #000000;
     margin-bottom:0;
-
+    margin-top: 22px;
 }
 
 #nom-nr , #email-nr , #message-nr {
@@ -65,3 +142,345 @@
     display: none;
 }
 
+
+/* Formulaire Commander
+---------------------------------*/
+
+.wpcf7 {
+    width: 900px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+
+.titre-c , .titre-co{
+    font-family: 'Syne' , sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 39px;
+    color: var(--blanc-color);
+}
+
+.titre-co {
+    margin-top: 25px;
+}
+
+.commander {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.choix {
+    margin-bottom: 26px;
+}
+
+p{
+    padding-bottom: 0;
+}
+
+.img-txt {
+    width: 192px;
+    height: 128px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Syne' , sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--blanc-color);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.fruits-c {
+    justify-content: center ;
+    padding-bottom: 0;
+}
+
+.fruits-c p {
+    padding-bottom: 0;
+}
+
+.img-fraise {
+    background-image: url("http://planty.local/wp-content/uploads/2023/05/jeremy-bezanger-0QgbyZdhX7k-unsplash-1.png");
+}
+
+.img-pamplemousse {
+    background-image: url("http://planty.local/wp-content/uploads/2023/05/estudio-bloom-tOitjphtIXU-unsplash-1.png");
+}
+
+.img-framboise {
+    background-image: url("http://planty.local/wp-content/uploads/2023/05/rodion-kutsaev-4k8xEFW4_3Q-unsplash-1.png");
+}
+
+.img-citron {
+    background-image: url("http://planty.local/wp-content/uploads/2023/05/estudio-bloom-ezqnxsqUZ80-unsplash-1.png");
+}
+
+.select {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 192px;
+    justify-content: space-between;
+}
+
+.elementor-shortcode {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:980px) {
+    .choix {
+        flex-basis: 50%;
+    }
+
+    .commander-test {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 120px;
+    }
+
+    .titre-co {
+        text-align: center;
+    }
+
+    .informations {
+        display: flex;
+        flex-direction: column!important;
+    }
+
+    .details,
+    .coordonnees {
+        width: 100%!important;
+        padding-left: 100px!important;
+        padding-right: 100px!important;
+        border: none!important;
+    }
+
+    .titre-ci {
+        text-align: center;
+    }
+    
+    .coordonnees {
+        margin-top: 39px;
+    }
+}
+
+@media (max-width:720px) {
+    .choix {
+        flex-basis: 100%;
+    }
+
+    .commander-test {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 200px;
+    }
+
+    .titre-co {
+        text-align: center;
+    }
+}
+
+
+
+
+#number-fraise , #number-pamplemousse , #number-framboise , #number-citron {
+    width: 51px;
+    height: 56px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+    text-align: center;
+    outline-style: none;
+    background-color: #ffffff;
+}
+
+.boutons_modif {
+    width: 31px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+}
+.select-number {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 82px ;
+    height: 56px;
+    margin-right: 11px;
+}
+
+.plus-moins {
+    width: 31px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: var(--saumon-color);
+    padding: 0;
+    margin: 0;
+}
+
+.plus {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--saumon-fonce);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 0;
+    border: none;
+    color: var(--blanc-color);
+    
+}
+
+
+.moins {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--saumon-fonce);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 5px;
+    border: none;
+    color: var(--blanc-color);
+    border-top: 1px solid var(--blanc-color);
+}
+
+
+#btn-valid-fraise , #btn-valid-pamplemousse , #btn-valid-framboise , #btn-valid-citron {
+    width: 100px;
+    background-color: var(--saumon-color);
+    font-family: 'Syne' , sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--blanc-color);
+    border-radius: 5px;
+    border: none;
+    height: 56px;
+}
+
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  .informations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 53px;
+    margin-bottom: 44px;
+  }
+
+  .details {
+    width: 50%;
+    border-right: 1px solid var(--blanc-color);
+    padding-right: 45px;
+  }
+
+  .coordonnees {
+    width: 50%;
+    padding-left: 45px;
+  }
+
+  .titre-ci {
+    font-family: 'Syne' , sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--blanc-color);
+}
+
+.label-c {
+    margin-top: 29px;
+    margin-bottom: 13px;
+    font-family: 'Syne' , sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--blanc-color);
+}
+.bouton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: none;
+
+}
+
+#btn-submit {
+    background-color: var(--saumon-color);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Syne' , sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--blanc-color);
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    text-transform: none!important;
+}
+
+#nom-c, #email-c, #prenom-c, #adresse-c, #ville-c, #code-postal-c {
+    border: none;
+    border-radius: 7px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline-style: none;
+    background-color: #ffffff;
+}
+
+
+
+footer a {
+    display: flex;
+    align-items: center;
+    color : black;
+    font-family: 'Syne' , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hr-white {
+    color: var(--blanc-color);
+}
+
+.gr-titre-c {
+    color: var(--blanc-color);
+    font-family: 'Syne' , sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 69px;
+    text-align: center;
+}

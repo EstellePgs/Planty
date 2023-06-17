@@ -9,6 +9,8 @@ function theme_enqueue_styles ()
     
 }
 
+
+
 // Hook permettant de switcher le menu en fonction que l'on soit connecté ou non
 
 function my_wp_nav_menu_args( $args = '' ) {

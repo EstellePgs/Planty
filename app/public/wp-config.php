@@ -58,7 +58,7 @@ define('SECURE_AUTH_SALT', 'KTFoZHjFREpiAN+8riT2EJzH42Ywf2+GFHjeZY6KeDO1Py3CpePH
 define('LOGGED_IN_SALT',   'u+9FGS+OGqGe29cO3dvrFf8aSs01hxFwny5RaBwUlmzhp6NQKZK4GISWAA7NjSHivwo+zhxEUx1+CHL6QACySg==');
 define('NONCE_SALT',       'm4gGu0is9qWiRJG8KaiExgZ84yM0WX1fn1khEBbd8PX5jlOZZrBsyfVVt4FDWd3HxrXwWwYmuBOWQQbwXW6x3w==');
 
-
+define( 'WPCF7_AUTOP', false );
 /**#@-*/
 
 /**
